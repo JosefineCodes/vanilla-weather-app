@@ -26,6 +26,14 @@ li {
   font-weight: 400;
   line-height: 20px;
 }
+.wind {
+  padding-top: 6px;
+}
+
+.wind li {
+  font-size: 12px;
+  line-height: 16px;
+}
 
 .weather-app-wrapper {
   max-width: 600px;
@@ -37,10 +45,35 @@ li {
   border: 1px solid #d9d9d9;
   border-radius: 5px;
 }
+
+.weather-temperature img {
+  margin-right: 5px;
+  height: 60px;
+  width: 60px;
+}
+
+.weather-temperature strong {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 60px;
+}
+.weather-temperature .units {
+  position: relative;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  top: -22px;
+}
+
 .float-left {
   float: left;
 }
 
 .overview {
   margin-bottom: 20px;
+}
+
+.units a {
+  text-decoration: none;
 }

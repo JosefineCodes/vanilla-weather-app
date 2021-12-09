@@ -82,3 +82,8 @@ li:first-letter {
 .units a {
   text-decoration: none;
 }
+
+.weather-temperature .active {
+  color: #202124;
+  cursor: default;
+}

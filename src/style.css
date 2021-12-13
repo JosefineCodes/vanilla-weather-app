@@ -12,6 +12,11 @@ h1 {
   margin-bottom: 0;
 }
 
+small {
+  font-size: smaller;
+  font-family: "Courier New", Courier, monospace;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -21,7 +26,7 @@ li {
   list-style: none;
   margin: 0;
   padding: 0;
-  color: rgb(112, 117, 122);
+  color: #70757a;
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
@@ -47,14 +52,17 @@ li:first-letter {
 
 .weather-app-frame {
   padding: 25px;
+
   border: 1px solid #d9d9d9;
   border-radius: 5px;
 }
 
 .weather-temperature img {
   margin-right: 5px;
-  height: 60px;
-  width: 60px;
+  height: 80px;
+  width: 80px;
+  position: relative;
+  top: -10px;
 }
 
 .weather-temperature strong {
@@ -68,11 +76,15 @@ li:first-letter {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  top: -22px;
+  top: -28px;
 }
 
 .float-left {
   float: left;
+}
+
+#temperature {
+  font-size: 54px;
 }
 
 .overview {
@@ -86,4 +98,23 @@ li:first-letter {
 .weather-temperature .active {
   color: #202124;
   cursor: default;
+}
+
+#button {
+  text-align: center;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: #202124;
+  font-size: 16px;
+}
+
+.weather-forecast-temperature {
+  font-size: 13px;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
 }

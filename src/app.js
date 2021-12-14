@@ -22,6 +22,20 @@ function formatDate(timestamp) {
   return `${day}, ${hours}:${minutes}`;
 }
 
+function switchBackgroundImage() {
+  let urlNight = "url(`images/gradient-night4.jpeg`)";
+  let urlDay = "url(`images/gradient-day.jpeg`)";
+  let date = new Date();
+  let hours = date.getHours();
+  if (hours > 18 || hours <= 6) {
+    document.getElementById("frame").style.backgroundImage = urlNight;
+  } else {
+    document.body.style.backgroundImage = urlDay;
+  }
+}
+
+switchBackgroundImage();
+
 function formatForcastDay(timestamp) {
   let date = new Date(timestamp * 1000);
   let day = date.getDay();

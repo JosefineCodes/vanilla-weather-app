@@ -49,8 +49,6 @@ span:first-letter {
 
 .weather-app-frame {
   padding: 25px 20px 15px;
-  background: url(https://images.pexels.com/photos/2310647/pexels-photo-2310647.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-  background: url(https://images.pexels.com/photos/3853501/pexels-photo-3853501.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940;)
   background-size: 600px;
   border: 1px solid #d9d9d9;
   border-radius: 5px;

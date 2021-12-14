@@ -33,20 +33,16 @@
                 <input
                   type="submit"
                   value="search"
-                  class="btn btn-outline-info w-80"
+                  class="btn btn-outline-dark w-80"
                 />
               </div>
             </div>
           </form>
           <div class="overview">
             <h1 id="city"></h1>
-            <ul>
-              <li id="date"></li>
-              <li id="description"></li>
-            </ul>
           </div>
           <div class="row">
-            <div class="col-6">
+            <div class="col-8">
               <div class="clearfix weather-temperature">
                 <img src="" alt="" id="icon" class="float-left" />
 
@@ -56,7 +52,8 @@
                 </div>
               </div>
             </div>
-            <div class="col-6">
+            <div class="col-4">
+              <span id="description"></span>
               <ul class="wind">
                 <li>Humidity: <span id="humidity"></span>%</li>
                 <li>Wind: <span id="wind"></span>km/h</li>
@@ -64,6 +61,12 @@
             </div>
           </div>
           <div class="weather-forecast" id="forecast"></div>
+
+          <hr />
+          <div class="update">
+            Last update:
+            <span id="date"></span>
+          </div>
         </div>
 
         <small>

@@ -29,11 +29,16 @@ function switchBackgroundImage() {
   let hours = date.getHours();
   if (hours > 18 || hours <= 6) {
     document.getElementById("frame").style.backgroundImage = urlNight;
+    document.body.style.backgroundImage = urlNight;
   } else {
     document.getElementById("frame").style.backgroundImage = urlDay;
+    document.body.style.backgroundImage = urlDay;
   }
   document.getElementById("frame").style.backgroundRepeat = "no-repeat";
   document.getElementById("frame").style.backgroundSize = "cover";
+  document.getElementById("frame").style.backgroundColor = "transparent";
+  document.body.style.backgroundRepeat = "no-repeat";
+  document.body.style.backgroundSize = "cover";
 }
 
 switchBackgroundImage();

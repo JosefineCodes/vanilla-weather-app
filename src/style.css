@@ -52,6 +52,7 @@ span:first-letter {
   background-size: 600px;
   border: 1px solid #d9d9d9;
   border-radius: 5px;
+  box-shadow: inset 0 0 10px #d9d9d9;
 }
 
 .weather-temperature img {

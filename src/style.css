@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-  color: #3f4764;
+  color: #525a75;
   display: block;
   font-size: 26px;
   font-weight: 400;
@@ -68,10 +68,11 @@ span:first-letter {
   line-height: 80px;
   position: relative;
   top: 10px;
+  color: #525a75;
 }
 .weather-temperature .units {
   position: relative;
-
+  color: #525a75;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -95,22 +96,27 @@ span:first-letter {
   margin-top: 120px;
   margin-bottom: 40px;
   text-align: center;
-  color: #454547;
+  color: #878992;
   font-size: 16px;
 }
 
 .weather-forecast-temperature {
   font-size: 13px;
+  color: #525a75;
 }
 
 .weather-forecast-temperature-min {
-  opacity: 0.5;
+  color: white;
 }
 
 .update {
-  color: #70757a;
+  color: #ebebeb;
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
   text-align: center;
+}
+
+#description {
+  color: #525a75;
 }

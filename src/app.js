@@ -23,8 +23,8 @@ function formatDate(timestamp) {
 }
 
 function switchBackgroundImage() {
-  let urlNight = "url(images/gradient-day1a.jpg)";
-  let urlDay = "url(images/gradient-night1a.jpg)";
+  let urlDay = "url(images/gradient-day1a-transp.png)";
+  let urlNight = "url(images/gradient-night1a-transp.png)";
   let date = new Date();
   let hours = date.getHours();
   if (hours > 18 || hours <= 6) {

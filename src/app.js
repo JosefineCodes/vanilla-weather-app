@@ -32,6 +32,8 @@ function switchBackgroundImage() {
   } else {
     document.getElementById("frame").style.backgroundImage = urlDay;
   }
+  document.getElementById("frame").style.backgroundRepeat = "no-repeat";
+  document.getElementById("frame").style.backgroundSize = "cover";
 }
 
 switchBackgroundImage();
